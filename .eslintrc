@@ -1,0 +1,43 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    // "semi":"off",
+    // "comma-dangle":"off",
+    // "object-curly-spacing": ["error", "always"],
+    "arrow-parens": "off",
+    "allowShortCircuit": 0,
+    "linebreak-style": 0,
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ],
+    "indent": [
+      "error", 2,
+      {
+        "SwitchCase": 2
+      }
+    ],
+    "semi": [2, "never"],
+    "comma-dangle": ["off"],
+    "import/extensions": 0,
+    "no-unused-vars": ["warn"],
+    "no-nested-ternary": ["off"],
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true
+      }
+    ],
+    "object-curly-spacing": ["off"],
+		"padded-blocks": ["off"],
+		"require-jsdoc":["off"]
+  },
+  "extends": ["eslint:recommended", "google"]
+}
