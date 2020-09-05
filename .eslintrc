@@ -12,6 +12,7 @@
     "arrow-parens": "off",
     "allowShortCircuit": 0,
     "linebreak-style": 0,
+    "operator-linebreak": "off",
     "max-len": [
       "error",
       {
